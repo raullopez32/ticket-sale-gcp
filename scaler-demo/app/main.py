@@ -20,3 +20,6 @@ async def purchase(p:Purchase):
     await asyncio.sleep(0.12)
     seen.add(rid)
     return {"status":"ok","requestId":rid,"latency_ms":int((time.time()-t)*1000)}
+@app.get("/ping")
+async def ping():
+    return {"ok": True}
