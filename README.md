@@ -1,6 +1,5 @@
-#   Prueba Técnica — Escalabilidad Horizontal en Cloud Run
+
 **Autor:** Gerardo Raúl López Aguilar  
-**Empresa:** Nerds.ai  
 **Fecha:** Octubre 2025  
 
 ---
@@ -55,5 +54,4 @@ k6 run -e TARGET_URL=$env:TARGET_URL .\scaler-demo\load\k6-load.js | Tee-Object 
 
 Licencia
 
-Proyecto con fines técnicos y educativos.
 © 2025 Gerardo Raúl López Aguilar — Todos los derechos reservados.
